@@ -1,0 +1,18 @@
+2026-01-15 12:34:21,593:WARNING:nextcord.client: PyNaCl is not installed, voice will NOT be supported
+2026-01-15 12:34:21,595:INFO:nextcord.client: logging in using static token
+2026-01-15 12:34:21,648:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-15 12:34:22,118:INFO:nextcord.gateway: Shard ID None has sent the IDENTIFY payload.
+2026-01-15 12:34:22,330:INFO:nextcord.gateway: Shard ID None has connected to Gateway: ["gateway-prd-arm-us-east1-c-kjz5",{"micros":141780,"calls":["id_created",{"micros":613,"calls":[]},"session_lookup_time",{"micros":250,"calls":[]},"session_lookup_finished",{"micros":29,"calls":[]},"discord-sessions-prd-2-17",{"micros":139512,"calls":["start_session",{"micros":133187,"calls":["discord-api-rpc-797f59c7f4-pdf9v",{"micros":87112,"calls":["get_user",{"micros":7671},"get_guilds",{"micros":5578},"send_scheduled_deletion_message",{"micros":24},"guild_join_requests",{"micros":5},"authorized_ip_coro",{"micros":9},"pending_payments",{"micros":792},"apex_experiments",{"micros":38094},"user_activities",{"micros":7},"played_application_ids",{"micros":4},"linked_users",{"micros":4},"ad_personalization_toggles_disabled",{"micros":3},"regional_feature_config",{"micros":4}]}]},"starting_guild_connect",{"micros":33,"calls":[]},"presence_started",{"micros":332,"calls":[]},"guilds_started",{"micros":117,"calls":[]},"lobbies_started",{"micros":1,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":5795,"calls":[]},"connect_finished",{"micros":5827,"calls":[]},"build_ready",{"micros":13,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: f50dd85980a0414227ca712fd7ecdb34). Resume URL specified as wss://gateway-us-east1-c.discord.gg
+2026-01-15 12:39:21,653:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-15 12:49:21,659:INFO:nextcord.http: Allowed 11 rate limits to be garbage collected.
+2026-01-15 12:53:11,849:INFO:nextcord.client: Got a request to RESUME the websocket.
+2026-01-15 12:53:12,000:INFO:nextcord.gateway: Shard ID None has sent the RESUME payload.
+2026-01-15 12:53:12,046:INFO:nextcord.gateway: Shard ID None has successfully RESUMED session f50dd85980a0414227ca712fd7ecdb34 under trace ["gateway-prd-arm-us-east1-c-xjwb",{"micros":377,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":162,"calls":[]},"session_lookup_finished",{"micros":9,"calls":[]},"discord-sessions-prd-2-17",{"micros":12}]}].
+2026-01-15 13:09:21,695:INFO:nextcord.http: Allowed 2 rate limits to be garbage collected.
+2026-01-15 13:14:21,711:INFO:nextcord.http: Allowed 3 rate limits to be garbage collected.
+2026-01-15 13:19:27,155:INFO:nextcord.client: Got a request to RESUME the websocket.
+2026-01-15 13:19:27,425:INFO:nextcord.gateway: Shard ID None has sent the RESUME payload.
+2026-01-15 13:19:27,510:INFO:nextcord.gateway: Shard ID None has successfully RESUMED session f50dd85980a0414227ca712fd7ecdb34 under trace ["gateway-prd-arm-us-east1-b-fttv",{"micros":535,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":223,"calls":[]},"session_lookup_finished",{"micros":10,"calls":[]},"discord-sessions-prd-2-17",{"micros":33}]}].
+2026-01-15 13:24:21,718:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-15 13:29:21,726:INFO:nextcord.http: Allowed 2 rate limits to be garbage collected.
+2026-01-15 13:34:21,738:INFO:nextcord.http: Allowed 3 rate limits to be garbage collected.

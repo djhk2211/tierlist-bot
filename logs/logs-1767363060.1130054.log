@@ -1,0 +1,434 @@
+2026-01-02 09:11:00,118:WARNING:nextcord.client: PyNaCl is not installed, voice will NOT be supported
+2026-01-02 09:11:00,119:INFO:nextcord.client: logging in using static token
+2026-01-02 09:11:00,164:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-02 09:11:00,649:INFO:nextcord.gateway: Shard ID None has sent the IDENTIFY payload.
+2026-01-02 09:11:00,833:INFO:nextcord.gateway: Shard ID None has connected to Gateway: ["gateway-prd-arm-us-east1-b-bqzh",{"micros":133429,"calls":["id_created",{"micros":713,"calls":[]},"session_lookup_time",{"micros":1086,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-163",{"micros":131194,"calls":["start_session",{"micros":96719,"calls":["discord-api-rpc-685f5fd59d-bh6jm",{"micros":56383,"calls":["get_user",{"micros":7028},"get_guilds",{"micros":7235},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":3},"authorized_ip_coro",{"micros":13},"pending_payments",{"micros":636},"apex_experiments",{"micros":32917},"user_activities",{"micros":7},"played_application_ids",{"micros":4},"linked_users",{"micros":3}]}]},"starting_guild_connect",{"micros":29,"calls":[]},"presence_started",{"micros":1703,"calls":[]},"guilds_started",{"micros":53,"calls":[]},"lobbies_started",{"micros":0,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":32668,"calls":[]},"connect_finished",{"micros":32676,"calls":[]},"build_ready",{"micros":12,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 18aafcc9c866fab7695a00e10fb49837). Resume URL specified as wss://gateway-us-east1-b.discord.gg
+2026-01-02 09:16:00,174:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-02 09:21:00,180:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-02 09:26:00,184:INFO:nextcord.http: Allowed 6 rate limits to be garbage collected.
+2026-01-02 10:04:34,408:INFO:nextcord.client: Got a request to RESUME the websocket.
+2026-01-02 10:04:34,563:INFO:nextcord.gateway: Shard ID None has sent the RESUME payload.
+2026-01-02 10:04:34,643:INFO:nextcord.gateway: Shard ID None has successfully RESUMED session 18aafcc9c866fab7695a00e10fb49837 under trace ["gateway-prd-arm-us-east1-b-5sbp",{"micros":1826,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":256,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-2-163",{"micros":14}]}].
+2026-01-02 10:11:00,290:INFO:nextcord.http: Allowed 5 rate limits to be garbage collected.
+2026-01-02 10:30:27,074:INFO:nextcord.client: Got a request to RESUME the websocket.
+2026-01-02 10:30:27,366:INFO:nextcord.gateway: Shard ID None has sent the RESUME payload.
+2026-01-02 10:30:27,431:INFO:nextcord.gateway: Shard ID None has successfully RESUMED session 18aafcc9c866fab7695a00e10fb49837 under trace ["gateway-prd-arm-us-east1-c-nd1d",{"micros":674,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":306,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-163",{"micros":15}]}].
+2026-01-02 10:31:00,319:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-02 11:05:39,593:INFO:nextcord.client: Got a request to RESUME the websocket.
+2026-01-02 11:05:39,876:INFO:nextcord.gateway: Shard ID None has sent the RESUME payload.
+2026-01-02 11:05:39,952:INFO:nextcord.gateway: Shard ID None has successfully RESUMED session 18aafcc9c866fab7695a00e10fb49837 under trace ["gateway-prd-arm-us-east1-b-44q0",{"micros":2352,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":1843,"calls":[]},"session_lookup_finished",{"micros":9,"calls":[]},"discord-sessions-prd-2-163",{"micros":15}]}].
+2026-01-02 11:06:00,373:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-02 14:21:00,677:INFO:nextcord.http: Allowed 2 rate limits to be garbage collected.
+2026-01-02 14:22:08,714:INFO:nextcord.client: Got a request to RESUME the websocket.
+2026-01-02 14:22:09,022:INFO:nextcord.gateway: Shard ID None has sent the RESUME payload.
+2026-01-02 14:22:09,074:INFO:nextcord.gateway: Shard ID None has successfully RESUMED session 18aafcc9c866fab7695a00e10fb49837 under trace ["gateway-prd-arm-us-east1-b-hp3c",{"micros":6378,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":5673,"calls":[]},"session_lookup_finished",{"micros":11,"calls":[]},"discord-sessions-prd-2-163",{"micros":15}]}].
+2026-01-02 14:26:00,684:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-02 15:52:11,421:INFO:nextcord.client: Got a request to RESUME the websocket.
+2026-01-02 15:52:11,915:INFO:nextcord.gateway: Shard ID None has sent the RESUME payload.
+2026-01-02 15:52:12,009:INFO:nextcord.gateway: Shard ID None has successfully RESUMED session 18aafcc9c866fab7695a00e10fb49837 under trace ["gateway-prd-arm-us-east1-d-9t1v",{"micros":538,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":236,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-163",{"micros":15}]}].
+2026-01-02 15:56:00,843:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-02 16:15:30,814:INFO:nextcord.gateway: Websocket closed with 1006, attempting a reconnect.
+2026-01-02 16:15:30,815:INFO:nextcord.client: Got a request to RESUME the websocket.
+2026-01-02 16:15:31,030:INFO:nextcord.gateway: Shard ID None has sent the RESUME payload.
+2026-01-02 16:15:31,086:INFO:nextcord.gateway: Shard ID None has successfully RESUMED session 18aafcc9c866fab7695a00e10fb49837 under trace ["gateway-prd-arm-us-east1-c-0r0h",{"micros":568,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":259,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-prd-2-163",{"micros":16}]}].
+2026-01-02 16:16:00,862:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-02 16:31:35,692:INFO:nextcord.client: Got a request to RESUME the websocket.
+2026-01-02 16:31:35,876:INFO:nextcord.gateway: Shard ID None has sent the RESUME payload.
+2026-01-02 16:31:35,934:INFO:nextcord.gateway: Shard ID None has successfully RESUMED session 18aafcc9c866fab7695a00e10fb49837 under trace ["gateway-prd-arm-us-east1-d-6qsk",{"micros":671,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":302,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-163",{"micros":18}]}].
+2026-01-02 16:36:00,906:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-02 18:03:43,213:INFO:nextcord.client: Got a request to RESUME the websocket.
+2026-01-02 18:03:43,398:INFO:nextcord.gateway: Shard ID None has sent the RESUME payload.
+2026-01-02 18:03:43,451:INFO:nextcord.gateway: Shard ID None has successfully RESUMED session 18aafcc9c866fab7695a00e10fb49837 under trace ["gateway-prd-arm-us-east1-c-lbjj",{"micros":626,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":303,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-163",{"micros":28}]}].
+2026-01-02 18:06:01,042:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-02 19:39:32,360:INFO:nextcord.client: Got a request to RESUME the websocket.
+2026-01-02 19:39:32,607:INFO:nextcord.gateway: Shard ID None has sent the RESUME payload.
+2026-01-02 19:39:32,670:INFO:nextcord.gateway: Shard ID None has successfully RESUMED session 18aafcc9c866fab7695a00e10fb49837 under trace ["gateway-prd-arm-us-east1-c-8h12",{"micros":536,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":261,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-2-163",{"micros":15}]}].
+2026-01-02 19:41:01,157:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-02 20:01:55,696:INFO:nextcord.gateway: Websocket closed with 1006, attempting a reconnect.
+2026-01-02 20:01:55,696:INFO:nextcord.client: Got a request to RESUME the websocket.
+2026-01-02 20:01:55,715:ERROR:nextcord.client: Attempting a reconnect in 1.95s
+Traceback (most recent call last):
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 939, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\client.py", line 730, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\gateway.py", line 336, in from_client
+    gateway = await client.http.get_gateway()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\http.py", line 4400, in get_gateway
+    data = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\http.py", line 834, in request
+    async with self.__session.request(
+               ~~~~~~~~~~~~~~~~~~~~~~^
+        method=route.method,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ) as response:
+    ^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2026-01-02 20:01:58,926:ERROR:nextcord.client: Attempting a reconnect in 3.61s
+Traceback (most recent call last):
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 939, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\client.py", line 730, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\gateway.py", line 336, in from_client
+    gateway = await client.http.get_gateway()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\http.py", line 4400, in get_gateway
+    data = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\http.py", line 834, in request
+    async with self.__session.request(
+               ~~~~~~~~~~~~~~~~~~~~~~^
+        method=route.method,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ) as response:
+    ^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2026-01-02 20:02:03,559:ERROR:nextcord.client: Attempting a reconnect in 4.50s
+Traceback (most recent call last):
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 939, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\client.py", line 730, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\gateway.py", line 336, in from_client
+    gateway = await client.http.get_gateway()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\http.py", line 4400, in get_gateway
+    data = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\http.py", line 834, in request
+    async with self.__session.request(
+               ~~~~~~~~~~~~~~~~~~~~~~^
+        method=route.method,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ) as response:
+    ^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2026-01-02 20:03:40,829:ERROR:nextcord.client: Attempting a reconnect in 13.16s
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\gateway.py", line 336, in from_client
+    gateway = await client.http.get_gateway()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\http.py", line 4400, in get_gateway
+    data = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\http.py", line 812, in request
+    async with global_rate_limit, url_rate_limit:
+                                  ^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\http.py", line 359, in __aenter__
+    await self.acquire()
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\http.py", line 388, in acquire
+    await self._ratelimit_ready.wait()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\locks.py", line 213, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\client.py", line 730, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 506, in wait_for
+    async with timeouts.timeout(timeout):
+               ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\timeouts.py", line 116, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+2026-01-02 20:03:54,181:ERROR:nextcord.client: Attempting a reconnect in 17.91s
+Traceback (most recent call last):
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 939, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\client.py", line 730, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\gateway.py", line 336, in from_client
+    gateway = await client.http.get_gateway()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\http.py", line 4400, in get_gateway
+    data = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\http.py", line 834, in request
+    async with self.__session.request(
+               ~~~~~~~~~~~~~~~~~~~~~~^
+        method=route.method,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ) as response:
+    ^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2026-01-02 20:04:13,284:INFO:nextcord.gateway: Shard ID None has sent the RESUME payload.
+2026-01-02 20:04:13,334:INFO:nextcord.gateway: Shard ID None session has been invalidated.
+2026-01-02 20:04:13,400:INFO:nextcord.client: Got a request to IDENTIFY the websocket.
+2026-01-02 20:04:18,595:INFO:nextcord.gateway: Shard ID None has sent the IDENTIFY payload.
+2026-01-02 20:04:18,774:INFO:nextcord.gateway: Shard ID None has connected to Gateway: ["gateway-prd-arm-us-east1-c-jc1t",{"micros":118802,"calls":["id_created",{"micros":572,"calls":[]},"session_lookup_time",{"micros":334,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-prd-2-191",{"micros":114851,"calls":["start_session",{"micros":94847,"calls":["discord-api-rpc-685f5fd59d-w7m85",{"micros":58122,"calls":["get_user",{"micros":6856},"get_guilds",{"micros":13594},"send_scheduled_deletion_message",{"micros":19},"guild_join_requests",{"micros":4},"authorized_ip_coro",{"micros":16},"pending_payments",{"micros":537},"apex_experiments",{"micros":28846},"user_activities",{"micros":5},"played_application_ids",{"micros":3},"linked_users",{"micros":3}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":235,"calls":[]},"guilds_started",{"micros":75,"calls":[]},"lobbies_started",{"micros":1,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":19611,"calls":[]},"connect_finished",{"micros":19619,"calls":[]},"build_ready",{"micros":12,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: d34422fe2f0f55f8f3d7e852f0af9587). Resume URL specified as wss://gateway-us-east1-c.discord.gg
+2026-01-02 20:04:23,250:ERROR:root: Failed bot startup sequence: 
+Traceback (most recent call last):
+  File "C:\Users\jumas\Downloads\tier-test-bot-main\tier-test-bot-main\main.py", line 64, in on_ready
+    updateQueue.start()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\ext\tasks\__init__.py", line 307, in start
+    raise RuntimeError("Task is already launched and is not completed.")
+RuntimeError: Task is already launched and is not completed.
+2026-01-02 20:04:23,272:INFO:nextcord.gateway: Websocket closed with 1000, cannot reconnect.
+2026-01-02 20:04:23,455:INFO:nextcord.client: Cleaning up after 8 tasks.
+2026-01-02 20:04:23,456:INFO:nextcord.client: All tasks finished cancelling.
+2026-01-02 20:04:23,456:INFO:nextcord.client: Closing the event loop.
+2026-01-02 20:04:23,498:ERROR:asyncio: Task exception was never retrieved
+future: <Task finished name='nextcord: on_ready' coro=<Client._run_event() done, defined at C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\client.py:519> exception=SystemExit('Failed startup sequence')>
+Traceback (most recent call last):
+  File "C:\Users\jumas\Downloads\tier-test-bot-main\tier-test-bot-main\main.py", line 64, in on_ready
+    updateQueue.start()
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\ext\tasks\__init__.py", line 307, in start
+    raise RuntimeError("Task is already launched and is not completed.")
+RuntimeError: Task is already launched and is not completed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jumas\Downloads\tier-test-bot-main\tier-test-bot-main\main.py", line 442, in <module>
+    bot.run(os.getenv("TOKEN"))
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\client.py", line 894, in run
+    loop.run_until_complete(self.start(token, reconnect=reconnect))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 2050, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 89, in _run
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\client.py", line 527, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\jumas\Downloads\tier-test-bot-main\tier-test-bot-main\main.py", line 67, in on_ready
+    sys.exit("Failed startup sequence")
+SystemExit: Failed startup sequence

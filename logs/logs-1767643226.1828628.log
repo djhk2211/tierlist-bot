@@ -1,0 +1,43 @@
+2026-01-05 15:00:26,184:WARNING:nextcord.client: PyNaCl is not installed, voice will NOT be supported
+2026-01-05 15:00:26,185:INFO:nextcord.client: logging in using static token
+2026-01-05 15:00:26,192:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-05 15:00:26,601:INFO:nextcord.gateway: Shard ID None has sent the IDENTIFY payload.
+2026-01-05 15:00:26,762:INFO:nextcord.gateway: Shard ID None has connected to Gateway: ["gateway-prd-arm-us-east1-d-0h6j",{"micros":106517,"calls":["id_created",{"micros":538,"calls":[]},"session_lookup_time",{"micros":526,"calls":[]},"session_lookup_finished",{"micros":11,"calls":[]},"discord-sessions-prd-2-177",{"micros":104176,"calls":["start_session",{"micros":99125,"calls":["discord-api-rpc-58974cbb55-vbwgt",{"micros":63671,"calls":["get_user",{"micros":9883},"get_guilds",{"micros":10214},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":9},"pending_payments",{"micros":419},"apex_experiments",{"micros":28450},"user_activities",{"micros":5},"played_application_ids",{"micros":2},"linked_users",{"micros":2}]}]},"starting_guild_connect",{"micros":46,"calls":[]},"presence_started",{"micros":362,"calls":[]},"guilds_started",{"micros":128,"calls":[]},"lobbies_started",{"micros":1,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":4484,"calls":[]},"connect_finished",{"micros":4495,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: af9c9b22f56935302654f5ec40faaadd). Resume URL specified as wss://gateway-us-east1-d.discord.gg
+2026-01-05 15:05:26,206:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-05 15:10:26,210:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-05 15:15:26,223:INFO:nextcord.http: Allowed 2 rate limits to be garbage collected.
+2026-01-05 15:25:26,248:INFO:nextcord.http: Allowed 2 rate limits to be garbage collected.
+2026-01-05 15:30:26,258:INFO:nextcord.http: Allowed 6 rate limits to be garbage collected.
+2026-01-05 15:32:32,395:WARNING:nextcord.http: Path ('GET', '1455612155951845377:None:/channels/{channel_id}/messages/{message_id}', 'Bot MTQ1NTU5[redacted]') resulted in error 404, check your path?
+2026-01-05 15:35:06,704:INFO:nextcord.gateway: Websocket closed with 4003, attempting a reconnect.
+2026-01-05 15:35:06,704:INFO:nextcord.client: Got a request to RESUME the websocket.
+2026-01-05 15:35:06,864:INFO:nextcord.gateway: Shard ID None has sent the RESUME payload.
+2026-01-05 15:35:06,927:INFO:nextcord.gateway: Shard ID None session has been invalidated.
+2026-01-05 15:35:06,981:INFO:nextcord.client: Got a request to IDENTIFY the websocket.
+2026-01-05 15:35:12,391:INFO:nextcord.gateway: Shard ID None has sent the IDENTIFY payload.
+2026-01-05 15:35:12,492:INFO:nextcord.gateway: Websocket closed with 4004, cannot reconnect.
+2026-01-05 15:35:12,607:INFO:nextcord.client: Cleaning up after 1 tasks.
+2026-01-05 15:35:12,607:INFO:nextcord.client: All tasks finished cancelling.
+2026-01-05 15:35:12,607:INFO:nextcord.client: Closing the event loop.
+2026-01-05 15:35:12,631:ERROR:asyncio: Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Loop._loop() done, defined at C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\ext\tasks\__init__.py:128> exception=NotFound('404 Not Found (error code: 10008): Unknown Message')>
+Traceback (most recent call last):
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\ext\tasks\__init__.py", line 174, in _loop
+    raise exc
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\ext\tasks\__init__.py", line 145, in _loop
+    await self.coro(*args, **kwargs)
+  File "C:\Users\jumas\Downloads\tier-test-bot-main\tier-test-bot-main\main.py", line 80, in updateQueue
+    message: nextcord.Message = await channel.fetch_message(messageID)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\abc.py", line 1649, in fetch_message
+    data = await self._state.http.get_message(channel.id, id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\http.py", line 911, in request
+    should_retry = await self._handle_http_response_errors(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\http.py", line 1046, in _handle_http_response_errors
+    raise NotFound(response, return_value)
+nextcord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message

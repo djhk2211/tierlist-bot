@@ -1,0 +1,45 @@
+2026-01-01 19:35:54,261:WARNING:nextcord.client: PyNaCl is not installed, voice will NOT be supported
+2026-01-01 19:35:54,262:INFO:nextcord.client: logging in using static token
+2026-01-01 19:35:54,264:INFO:nextcord.http: Allowed 1 rate limits to be garbage collected.
+2026-01-01 19:35:54,740:INFO:nextcord.gateway: Shard ID None has sent the IDENTIFY payload.
+2026-01-01 19:35:54,943:INFO:nextcord.gateway: Shard ID None has connected to Gateway: ["gateway-prd-arm-us-east1-b-8ksk",{"micros":142575,"calls":["id_created",{"micros":900,"calls":[]},"session_lookup_time",{"micros":290,"calls":[]},"session_lookup_finished",{"micros":10,"calls":[]},"discord-sessions-prd-2-52",{"micros":140947,"calls":["start_session",{"micros":119481,"calls":["discord-api-rpc-685f5fd59d-p25s9",{"micros":76226,"calls":["get_user",{"micros":7048},"get_guilds",{"micros":4084},"send_scheduled_deletion_message",{"micros":23},"guild_join_requests",{"micros":491},"authorized_ip_coro",{"micros":22},"pending_payments",{"micros":615},"apex_experiments",{"micros":33849},"user_activities",{"micros":8},"played_application_ids",{"micros":13},"linked_users",{"micros":4}]}]},"starting_guild_connect",{"micros":38,"calls":[]},"presence_started",{"micros":6491,"calls":[]},"guilds_started",{"micros":63,"calls":[]},"lobbies_started",{"micros":1,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":14851,"calls":[]},"connect_finished",{"micros":14859,"calls":[]},"build_ready",{"micros":12,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: e220288d80df561e86225cbe6ee67ae3). Resume URL specified as wss://gateway-us-east1-b.discord.gg
+2026-01-01 19:35:55,651:INFO:nextcord.state: nextcord.ConnectionState: Registering command with signature ('remove', 1, None)
+2026-01-01 19:35:56,062:INFO:nextcord.state: nextcord.ConnectionState: Registering command with signature ('updatetier', 1, None)
+2026-01-01 19:35:56,498:INFO:nextcord.state: nextcord.ConnectionState: Registering command with signature ('openqueue', 1, None)
+2026-01-01 19:35:56,940:INFO:nextcord.state: nextcord.ConnectionState: Registering command with signature ('unrestrict', 1, None)
+2026-01-01 19:35:56,993:ERROR:root: Failed bot startup sequence: 
+Traceback (most recent call last):
+  File "C:\Users\jumas\Downloads\tier-test-bot-main\tier-test-bot-main\main.py", line 63, in on_ready
+    await setupBot()
+  File "C:\Users\jumas\Downloads\tier-test-bot-main\tier-test-bot-main\main.py", line 52, in setupBot
+    await bot.get_channel(channels["enterWaitlist"]).purge(limit=10, check=is_me)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'purge'
+2026-01-01 19:35:56,994:INFO:nextcord.gateway: Websocket closed with 1000, cannot reconnect.
+2026-01-01 19:35:57,152:INFO:nextcord.client: Cleaning up after 4 tasks.
+2026-01-01 19:35:57,153:INFO:nextcord.client: All tasks finished cancelling.
+2026-01-01 19:35:57,153:INFO:nextcord.client: Closing the event loop.
+2026-01-01 19:35:57,164:ERROR:asyncio: Task exception was never retrieved
+future: <Task finished name='nextcord: on_ready' coro=<Client._run_event() done, defined at C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\client.py:519> exception=SystemExit('Failed startup sequence')>
+Traceback (most recent call last):
+  File "C:\Users\jumas\Downloads\tier-test-bot-main\tier-test-bot-main\main.py", line 63, in on_ready
+    await setupBot()
+  File "C:\Users\jumas\Downloads\tier-test-bot-main\tier-test-bot-main\main.py", line 52, in setupBot
+    await bot.get_channel(channels["enterWaitlist"]).purge(limit=10, check=is_me)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'purge'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jumas\Downloads\tier-test-bot-main\tier-test-bot-main\main.py", line 442, in <module>
+    bot.run(os.getenv("TOKEN"))
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\client.py", line 894, in run
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 712, in run_until_complete
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 683, in run_forever
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 2050, in _run_once
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 89, in _run
+  File "C:\Users\jumas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\nextcord\client.py", line 527, in _run_event
+  File "C:\Users\jumas\Downloads\tier-test-bot-main\tier-test-bot-main\main.py", line 67, in on_ready
+    sys.exit("Failed startup sequence")
+SystemExit: Failed startup sequence
